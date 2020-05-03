@@ -3,7 +3,6 @@ from flask import Flask
 import telegram
 from telegram.ext import Dispatcher
 from flasktele.secret import bot_token, bot_username, heroku_url
-from flasktele.mastermind import get_response
 from flask_sqlalchemy import SQLAlchemy
 
 global TOKEN
